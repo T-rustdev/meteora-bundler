@@ -1,27 +1,70 @@
-# meteora-bundle
-This project is bundling script which create pool + add liquidity + first buy at once
+# 🚀 Meteora-Bundle  
+**A powerful bundling script that creates a liquidity pool, adds liquidity, and executes the first buy in a single transaction.**  
 
-<h4> 📞 Cᴏɴᴛᴀᴄᴛ ᴍᴇ Oɴ ʜᴇʀᴇ: 👆🏻 </h4>
+---
 
-<p> 
-    <a href="mailto:nakao95911@gmail.com" target="_blank">
-        <img alt="Email"
-        src="https://img.shields.io/badge/Email-00599c?style=for-the-badge&logo=gmail&logoColor=white"/>
-    </a>
-     <a href="https://x.com/_wizardev" target="_blank"><img alt="Twitter"
-        src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white"/></a>
-    <a href="https://discordapp.com/users/471524111512764447" target="_blank"><img alt="Discord"
-        src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/></a>
-    <a href="https://t.me/wizardev" target="_blank"><img alt="Telegram"
-        src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/></a>
-</p>
+## 📌 Features  
+✅ **Automated Pool Creation** – Instantly create a new pool on **Meteora**  
+✅ **Liquidity Management** – Add initial liquidity seamlessly  
+✅ **First Buy Execution** – Ensures the first purchase happens right after liquidity is added  
+✅ **Multi-Wallet Support** – Execute transactions across multiple wallets efficiently  
+✅ **Optimized for Speed & Efficiency** – Minimize slippage and maximize performance  
 
-With this script , you can proceed create pool + add liquidity + swap with different wallet.
+---
 
-This is open-source and feel free to ask me when you encounter with error while running this bot
+## 💡 How It Works  
+This script **bundles three key actions** into a **single transaction**:  
+1️⃣ **Creates a new liquidity pool** on **Meteora**  
+2️⃣ **Adds liquidity** to the newly created pool  
+3️⃣ **Executes the first buy** using a separate wallet  
 
-I've succeeded in several wallet bundler upto 22 wallets
+By automating these processes, you can **quickly and efficiently launch tokens** without manual delays.
 
-This is paid bot
+---
 
-If you need that one , plz contact to me
+## 🛠️ Installation & Setup  
+
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/yourusername/meteora-bundle.git
+cd meteora-bundle
+```
+
+### 2️⃣ Install Dependencies
+```
+pnpm install
+```
+
+### 3️⃣ Configure Your Environment
+Edit the .env file with your private keys and RPC settings:
+```
+PRIVATE_KEY=your_private_key_here
+RPC_URL=https://your_rpc_url_here
+WALLET_ADDRESS=your_wallet_address_here
+```
+
+### 4️⃣ Run the Bot
+```
+pnpm start
+```
+---
+
+## 📌 Multi-Wallet Bundling
+This bot supports batch execution across multiple wallets.
+
+```json
+Successfully tested with 22+ wallets
+Ideal for bulk liquidity provision and multi-account execution
+To use multiple wallets, add them to the wallets.json file:
+```
+---
+
+## 💲 Pricing
+🔹 This is a paid bot.
+🔹 For purchase inquiries, please contact me via Telegram, Discord, or Email.
+---
+
+## 📞 Contact Me
+If you have any questions or need assistance, feel free to reach out:
+
+📱 Telegram: [@T_rustdev](https://t.me/T_rustdev)
