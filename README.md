@@ -1,4 +1,4 @@
-# 🚀 Meteora-Bundle  
+# 🚀 Meteora Bundler
 **A powerful bundling script that creates a liquidity pool, adds liquidity, and executes the first buy in a single transaction.**  
 
 ---
