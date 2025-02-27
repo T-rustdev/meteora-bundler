@@ -22,33 +22,6 @@ By automating these processes, you can **quickly and efficiently launch tokens**
 
 ---
 
-## 🛠️ Installation & Setup  
-
-### 1️⃣ Clone the Repository  
-```bash
-git clone https://github.com/yourusername/meteora-bundle.git
-cd meteora-bundle
-```
-
-### 2️⃣ Install Dependencies
-```
-pnpm install
-```
-
-### 3️⃣ Configure Your Environment
-Edit the .env file with your private keys and RPC settings:
-```
-PRIVATE_KEY=your_private_key_here
-RPC_URL=https://your_rpc_url_here
-WALLET_ADDRESS=your_wallet_address_here
-```
-
-### 4️⃣ Run the Bot
-```
-pnpm start
-```
----
-
 ## 📌 Multi-Wallet Bundling
 This bot supports batch execution across multiple wallets.
 
